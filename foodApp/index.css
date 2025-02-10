@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.25rem;
+}
